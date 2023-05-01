@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle');
+
+* {
+    font-family: Dongle, monospace;
+}
+
+body, head, html {
+    background-color: lightgrey;
+}
+
+div {
+    border-radius: 5px;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px darkgrey;
+}
+
+button {
+    background/*-image*/: radial-gradient(circle, blue, dodgerblue);
+    color: white;
+    border-radius: 10px;
+    border: white 2.5px solid;
+    text-align: center;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    width: 95%;
+    height: 100px;
+    font-size: 35px;
+    box-shadow: 10px 10px 5px dimgrey;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.center {
+    text-align: center;
+}
