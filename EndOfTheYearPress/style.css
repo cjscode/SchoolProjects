@@ -1,0 +1,52 @@
+#top, #main {
+    text-align: center;
+    padding: 10px;
+    background-color:deepskyblue;
+    border: dodgerblue solid 5px;
+    border-radius: 10px;
+    margin: 10px;
+    height: fit-content;
+    box-shadow: 10px 10px 5px lightgrey;
+    overflow-x: wrap;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 15px;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.9s all ease-in-out;
+    translate: -50% 0%;
+    opacity: 0;
+}
+button {
+    background-color: blue;
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 750px;
+    color: white;
+    box-shadow: 10px 10px 5px dodgerblue;
+    margin: 10px;
+}
+img {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+img.large {
+    width: 33.33% !important;
+    height: 100% !important;
+    border-radius: 2.5px !important;
+}
+html {
+    scroll-behavior: smooth;
+}
