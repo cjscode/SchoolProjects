@@ -47,6 +47,6 @@ img.large {
     height: 100% !important;
     border-radius: 2.5px !important;
 }
-html {
-    scroll-behavior: smooth;
+html, body, head {
+    overflow-x: hidden;
 }
